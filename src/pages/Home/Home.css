@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.inicio {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.inicio h1 {
+    margin-bottom: 20px;
+}
+
+.inicio form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio form .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.inicio form .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
